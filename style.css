@@ -17,7 +17,7 @@ body {
   align-content: center;
   justify-content: center;
   align-items: center;
-  grid-template-columns: reteat(3, auto);
+  grid-template-columns: retreat(3, auto);
 }
 
 .cell {
@@ -105,7 +105,7 @@ body {
   background: radial-gradient(var(--color-set) 60%, transparent 60%);
 }
 
-.winning-message {
+.winningMessage {
   display: none;
   position: fixed;
   top: 0;
@@ -121,7 +121,7 @@ body {
   flex-direction: column;
 }
 
-.winning-message button {
+.winningMessageBtn {
   border-radius: 10px;
   font-size: 3rem;
   background-color: white;
@@ -130,12 +130,12 @@ body {
   cursor: pointer;
 }
 
-.winning-message button:hover {
+.winningMessageBtn:hover {
   background-color: var(--color-set);
   color: white;
   border-color: white;
 }
 
-.winning-message.show {
+.winningMessage.show {
   display: flex;
 }
